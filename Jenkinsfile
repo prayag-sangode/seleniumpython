@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/prayag-sangode/seleniumpython.git', branch: 'main', credentialsId: 'None'])
+        git([url: 'https://github.com/prayag-sangode/seleniumpython.git', branch: 'main', credentialsId: 'github-id'])
 
       }
      }
