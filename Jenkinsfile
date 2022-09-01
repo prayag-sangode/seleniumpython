@@ -9,7 +9,7 @@ pipeline {
      }
     stage('build') {
       steps {
-        sh 'python3 webtest.py'
+        sh 'sudo python3 webtest.py'
             }
         }
     }
